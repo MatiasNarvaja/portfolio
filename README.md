@@ -1,27 +1,188 @@
-# Portfolio
+# Portafolio Profesional - Matias Narvaja
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.17.
+## 📋 Descripción del Proyecto
 
-## Development server
+Portafolio profesional desarrollado con **Angular 17** que presenta mi experiencia como desarrollador full-stack especializado en Java, Spring y tecnologías backend. El portafolio incluye mi trayectoria profesional en empresas como MercadoLibre, Red Link y Capgemini, junto con proyectos destacados y servicios especializados.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+**Proyecto web desarrollado como trabajo práctico para la materia Desarrollo de Sistemas Web (Frontend) del IFTS 16.**
 
-## Code scaffolding
+## ✨ Características Implementadas
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### 🎯 Elementos Semánticos HTML5
+- **`<main>`**: Contenedor principal de la aplicación
+- **`<header>`**: Encabezado con navegación sticky
+- **`<nav>`**: Menú de navegación principal
+- **`<section>`**: Secciones organizadas del portafolio
+- **`<article>`**: Tarjetas de proyectos y servicios
+- **`<footer>`**: Pie de página con enlaces sociales
 
-## Build
+### 🎨 CSS Moderno y Responsive
+- **Variables CSS**: Sistema de colores y espaciado consistente
+- **Fuente personalizada**: Poppins (Google Fonts)
+- **Paleta de colores**: Azul, púrpura y naranja con gradientes
+- **Diseño responsive**: 4 breakpoints (1080px, 768px, 480px, 375px)
+- **Animaciones**: Efectos hover, transiciones suaves y fadeInUp
+- **Imagen de perfil**: Foto personal en lugar de placeholders
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### 📱 Diseño Responsive Completo
+- **Tablet horizontal** (≤1080px): Layout de 2 columnas
+- **Tablet vertical** (≤768px): Layout de 1 columna
+- **Mobile 1** (≤480px): Optimización para móviles
+- **Mobile 2** (≤375px): Optimización extrema para pantallas pequeñas
 
-## Running unit tests
+## 🚀 Secciones del Portafolio
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### 1. **Header/Navegación**
+- Logo del portafolio con efectos hover
+- Menú de navegación con enlaces internos
+- Diseño sticky con backdrop blur
+- Animaciones de slideDown
 
-## Running end-to-end tests
+### 2. **Sección Hero/Presentación**
+- Título principal: "Matias Narvaja"
+- Descripción profesional enfocada en Java y Spring
+- Foto de perfil personal
+- Botón call-to-action para proyectos
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### 3. **Sobre Mí**
+- Descripción profesional concisa
+- **Experiencia Laboral Detallada**:
+  - **MercadoLibre** (Dic 2022 - Actualidad): Software Engineer
+  - **Red Link** (Ene 2020 - Dic 2022): Desarrollador Java Full Stack
+  - **Capgemini** (Oct 2018 - Ene 2020): Desarrollador Backend Java
+- Estadísticas: 5+ años de experiencia
 
-## Further help
+### 4. **Qué Hago (Servicios)**
+- **Desarrollo Backend**: APIs RESTful, microservicios, bases de datos
+- **Arquitectura de Software**: Principios SOLID, patrones de diseño, mentoring
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### 5. **Proyectos Destacados**
+- **Tienda de Té**: E-commerce con Angular 17, TypeScript, SCSS
+- **Aplicación de Turnos**: Sistema de gestión con Java, Spring Boot, MySQL
+- Enlaces a GitHub y demos en vivo
+
+### 6. **Contacto**
+- Información de contacto profesional
+- Email, teléfono y ubicación
+- Enfoque en colaboración y oportunidades
+
+### 7. **Footer**
+- Copyright actualizado
+- Enlaces a GitHub y LinkedIn
+
+## 🛠️ Tecnologías Utilizadas
+
+- **Angular 17**: Framework principal
+- **HTML5**: Estructura semántica
+- **CSS3**: Estilos modernos y responsive
+- **TypeScript**: Tipado estático
+- **Google Fonts**: Fuente Poppins
+- **Imagen personal**: matias.jpg
+
+## 📁 Estructura del Proyecto
+
+```
+portfolio/
+├── src/
+│   ├── app/
+│   │   ├── app.component.html    # Estructura HTML semántica
+│   │   ├── app.component.css     # Estilos CSS externos optimizados
+│   │   └── app.component.ts      # Lógica del componente
+│   ├── assets/
+│   │   └── matias.jpg           # Imagen de perfil personal
+│   ├── styles.css               # Estilos globales
+│   └── index.html               # Página principal
+├── angular.json                 # Configuración de Angular
+├── package.json                 # Dependencias del proyecto
+└── README.md                    # Documentación
+```
+
+## 🎯 Experiencia Profesional
+
+### MercadoLibre (Diciembre 2022 - Actualidad)
+**Software Engineer**
+- Desarrollo de soluciones escalables para e-commerce
+- Tecnologías modernas y arquitecturas de microservicios
+
+### Red Link (Enero 2020 - Diciembre 2022)
+**Desarrollador Java Full Stack**
+- Aplicaciones financieras y sistemas de procesamiento de pagos
+- Java, Spring y tecnologías web modernas
+
+### Capgemini (Octubre 2018 - Enero 2020)
+**Desarrollador Backend Java**
+- Aplicaciones empresariales y APIs robustas
+- Java y Spring Framework
+
+## 🚀 Cómo Ejecutar
+
+1. **Instalar dependencias**:
+   ```bash
+   npm install
+   ```
+
+2. **Ejecutar en modo desarrollo**:
+   ```bash
+   npm start
+   ```
+
+3. **Abrir en navegador**:
+   ```
+   http://localhost:4200
+   ```
+
+## 🎨 Paleta de Colores
+
+- **Primario**: #2563eb (Azul)
+- **Secundario**: #7c3aed (Púrpura)
+- **Acento**: #f59e0b (Naranja)
+- **Texto oscuro**: #1f2937
+- **Texto claro**: #6b7280
+- **Fondo claro**: #f8fafc
+- **Fondo oscuro**: #1e293b
+
+## 📱 Responsive Design
+
+El portafolio es completamente responsive con 4 breakpoints optimizados:
+
+### Tablet Horizontal (≤1080px)
+- Layout de 2 columnas para servicios y proyectos
+- Navegación adaptada para pantallas medianas
+
+### Tablet Vertical (≤768px)
+- Layout de 1 columna para mejor legibilidad
+- Navegación en columna
+- Imagen de perfil optimizada
+
+### Mobile 1 (≤480px)
+- Fuentes optimizadas para móviles
+- Navegación vertical compacta
+- Footer en columna
+
+### Mobile 2 (≤375px)
+- Optimización extrema para pantallas pequeñas
+- Padding reducido en contenedores
+- Tipografía escalable
+
+## 🔗 Enlaces
+
+- **GitHub**: [https://github.com/MatiasNarvaja](https://github.com/MatiasNarvaja)
+- **LinkedIn**: [https://www.linkedin.com/in/matias-narvaja/](https://www.linkedin.com/in/matias-narvaja/)
+- **Email**: matias.narvaja@hotmail.com
+- **Teléfono**: +54 11 5115-8374
+
+## 🎯 Características Técnicas
+
+- **CSS limpio**: Sin código innecesario, optimizado
+- **Animaciones suaves**: fadeInUp, hover effects, transiciones
+- **SEO optimizado**: Estructura semántica HTML5
+- **Accesibilidad**: Navegación por teclado, contraste adecuado
+- **Performance**: Carga rápida, imágenes optimizadas
+
+## 📄 Licencia
+
+Este proyecto es de uso personal y profesional.
+
+---
+
+**Desarrollado con ❤️ usando Angular 17 y CSS moderno**
