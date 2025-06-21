@@ -9,5 +9,6 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'portfolio';
+  // Componente principal de la aplicación de portafolio
+  title = 'Portfolio Personal';
 }
