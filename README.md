@@ -1,81 +1,74 @@
-# Mi Portafolio Personal
+# Portafolio Profesional - Matias Narvaja
 
 ## 📋 Descripción del Proyecto
 
-Este es un portafolio personal desarrollado con **Angular** que demuestra habilidades en desarrollo web frontend, utilizando elementos semánticos de HTML5 y estilos CSS modernos. El portafolio utiliza placeholders con emojis y gradientes en lugar de imágenes para un diseño limpio y moderno.
+Portafolio profesional desarrollado con **Angular 17** que presenta mi experiencia como desarrollador full-stack especializado en Java, Spring y tecnologías backend. El portafolio incluye mi trayectoria profesional en empresas como MercadoLibre, Red Link y Capgemini, junto con proyectos destacados y servicios especializados.
+
+**Proyecto web desarrollado como trabajo práctico para la materia Desarrollo de Sistemas Web (Frontend) del IFTS 16.**
 
 ## ✨ Características Implementadas
 
 ### 🎯 Elementos Semánticos HTML5
 - **`<main>`**: Contenedor principal de la aplicación
-- **`<header>`**: Encabezado con navegación
+- **`<header>`**: Encabezado con navegación sticky
 - **`<nav>`**: Menú de navegación principal
 - **`<section>`**: Secciones organizadas del portafolio
-- **`<article>`**: Tarjetas de proyectos y contenido principal
-- **`<footer>`**: Pie de página con información de contacto
+- **`<article>`**: Tarjetas de proyectos y servicios
+- **`<footer>`**: Pie de página con enlaces sociales
 
-### 🎨 CSS Externo Completo
+### 🎨 CSS Moderno y Responsive
 - **Variables CSS**: Sistema de colores y espaciado consistente
-- **Fuente personalizada**: Poppins (Google Fonts) + fuentes web-safe
+- **Fuente personalizada**: Poppins (Google Fonts)
 - **Paleta de colores**: Azul, púrpura y naranja con gradientes
-- **Diseño responsive**: Adaptable a diferentes tamaños de pantalla
-- **Animaciones**: Efectos hover y transiciones suaves
-- **Placeholders**: Diseños con emojis y gradientes en lugar de imágenes
+- **Diseño responsive**: 4 breakpoints (1080px, 768px, 480px, 375px)
+- **Animaciones**: Efectos hover, transiciones suaves y fadeInUp
+- **Imagen de perfil**: Foto personal en lugar de placeholders
 
-### 📱 Elementos en Bloque y Línea
-- **Elementos en bloque**: `.portfolio-main`, `.container`, `.project-card`
-- **Elementos en línea**: `.nav-link`, `.tech-tag`, `.social-link`
-
-### 🎯 Uso de IDs y Clases
-- **IDs**: `#inicio`, `#sobre-mi`, `#proyectos`, `#habilidades`, `#contacto`
-- **Clases**: Sistema de clases semánticas y reutilizables
-
-### 📐 Dimensiones y Espaciado
-- **Height y Width**: Placeholders con dimensiones específicas (300x300px para perfil)
-- **Espaciado consistente**: Sistema de variables CSS para márgenes y padding
-
-### 🎨 Personalización de Elementos
-- **Botones**: Estilos personalizados con hover effects
-- **Formularios**: Inputs y textareas con focus states
-- **Barras de progreso**: Para mostrar habilidades técnicas
-- **Tarjetas**: Sombras y efectos de elevación
-- **Placeholders**: Gradientes y emojis para representar contenido visual
+### 📱 Diseño Responsive Completo
+- **Tablet horizontal** (≤1080px): Layout de 2 columnas
+- **Tablet vertical** (≤768px): Layout de 1 columna
+- **Mobile 1** (≤480px): Optimización para móviles
+- **Mobile 2** (≤375px): Optimización extrema para pantallas pequeñas
 
 ## 🚀 Secciones del Portafolio
 
 ### 1. **Header/Navegación**
-- Logo del portafolio
+- Logo del portafolio con efectos hover
 - Menú de navegación con enlaces internos
-- Diseño sticky para mejor UX
+- Diseño sticky con backdrop blur
+- Animaciones de slideDown
 
-### 2. **Sección Hero**
-- Título principal y descripción
-- Placeholder de perfil con emoji de desarrollador
-- Botón call-to-action
+### 2. **Sección Hero/Presentación**
+- Título principal: "Matias Narvaja"
+- Descripción profesional enfocada en Java y Spring
+- Foto de perfil personal
+- Botón call-to-action para proyectos
 
 ### 3. **Sobre Mí**
-- Información personal y profesional
-- Estadísticas destacadas (experiencia, proyectos, clientes)
+- Descripción profesional concisa
+- **Experiencia Laboral Detallada**:
+  - **MercadoLibre** (Dic 2022 - Actualidad): Software Engineer
+  - **Red Link** (Ene 2020 - Dic 2022): Desarrollador Java Full Stack
+  - **Capgemini** (Oct 2018 - Ene 2020): Desarrollador Backend Java
+- Estadísticas: 5+ años de experiencia
 
-### 4. **Proyectos**
-- Grid de tarjetas de proyectos
-- Placeholders con emojis representativos (🛒, 📋, 📊)
-- Descripciones y tecnologías utilizadas
-- Enlaces a demo y código
+### 4. **Qué Hago (Servicios)**
+- **Desarrollo Backend**: APIs RESTful, microservicios, bases de datos
+- **Arquitectura de Software**: Principios SOLID, patrones de diseño, mentoring
 
-### 5. **Habilidades Técnicas**
-- Categorías Frontend y Backend
-- Barras de progreso animadas
-- Porcentajes de dominio
+### 5. **Proyectos Destacados**
+- **Tienda de Té**: E-commerce con Angular 17, TypeScript, SCSS
+- **Aplicación de Turnos**: Sistema de gestión con Java, Spring Boot, MySQL
+- Enlaces a GitHub y demos en vivo
 
 ### 6. **Contacto**
-- Información de contacto
-- Formulario funcional
-- Iconos descriptivos
+- Información de contacto profesional
+- Email, teléfono y ubicación
+- Enfoque en colaboración y oportunidades
 
 ### 7. **Footer**
-- Copyright y enlaces sociales
-- Diseño minimalista
+- Copyright actualizado
+- Enlaces a GitHub y LinkedIn
 
 ## 🛠️ Tecnologías Utilizadas
 
@@ -84,7 +77,7 @@ Este es un portafolio personal desarrollado con **Angular** que demuestra habili
 - **CSS3**: Estilos modernos y responsive
 - **TypeScript**: Tipado estático
 - **Google Fonts**: Fuente Poppins
-- **Emojis**: Para representación visual sin imágenes
+- **Imagen personal**: matias.jpg
 
 ## 📁 Estructura del Proyecto
 
@@ -93,22 +86,33 @@ portfolio/
 ├── src/
 │   ├── app/
 │   │   ├── app.component.html    # Estructura HTML semántica
-│   │   ├── app.component.css     # Estilos CSS externos
+│   │   ├── app.component.css     # Estilos CSS externos optimizados
 │   │   └── app.component.ts      # Lógica del componente
-│   ├── assets/                   # Recursos estáticos
+│   ├── assets/
+│   │   └── matias.jpg           # Imagen de perfil personal
 │   ├── styles.css               # Estilos globales
 │   └── index.html               # Página principal
+├── angular.json                 # Configuración de Angular
+├── package.json                 # Dependencias del proyecto
 └── README.md                    # Documentación
 ```
 
-## 🎯 Comentarios del Código
+## 🎯 Experiencia Profesional
 
-El código incluye comentarios explicativos que documentan:
+### MercadoLibre (Diciembre 2022 - Actualidad)
+**Software Engineer**
+- Desarrollo de soluciones escalables para e-commerce
+- Tecnologías modernas y arquitecturas de microservicios
 
-1. **Estructura de secciones**: Organización del HTML semántico
-2. **Sistema de variables CSS**: Explicación de colores y espaciado
-3. **Elementos en bloque vs línea**: Diferenciación clara
-4. **Mejoras futuras**: TODO items para funcionalidades adicionales
+### Red Link (Enero 2020 - Diciembre 2022)
+**Desarrollador Java Full Stack**
+- Aplicaciones financieras y sistemas de procesamiento de pagos
+- Java, Spring y tecnologías web modernas
+
+### Capgemini (Octubre 2018 - Enero 2020)
+**Desarrollador Backend Java**
+- Aplicaciones empresariales y APIs robustas
+- Java y Spring Framework
 
 ## 🚀 Cómo Ejecutar
 
@@ -127,13 +131,6 @@ El código incluye comentarios explicativos que documentan:
    http://localhost:4200
    ```
 
-## 📱 Responsive Design
-
-El portafolio es completamente responsive con breakpoints para:
-- **Desktop**: > 768px
-- **Tablet**: 768px - 480px
-- **Mobile**: < 480px
-
 ## 🎨 Paleta de Colores
 
 - **Primario**: #2563eb (Azul)
@@ -144,31 +141,48 @@ El portafolio es completamente responsive con breakpoints para:
 - **Fondo claro**: #f8fafc
 - **Fondo oscuro**: #1e293b
 
-## 🎨 Placeholders y Diseño Visual
+## 📱 Responsive Design
 
-En lugar de imágenes, el portafolio utiliza:
-- **Placeholder de perfil**: Círculo con emoji de desarrollador (👨‍💻)
-- **Placeholders de proyectos**: Rectángulos con emojis representativos
-  - 🛒 para E-commerce
-  - 📋 para Task Management
-  - 📊 para Analytics Dashboard
-- **Gradientes**: Fondos con colores de la paleta personalizada
-- **Efectos hover**: Animaciones y cambios de color
+El portafolio es completamente responsive con 4 breakpoints optimizados:
 
-## 🔮 Mejoras Futuras
+### Tablet Horizontal (≤1080px)
+- Layout de 2 columnas para servicios y proyectos
+- Navegación adaptada para pantallas medianas
 
-- [ ] Modo oscuro/claro con toggle
-- [ ] Animaciones más complejas con CSS animations
-- [ ] Filtros para proyectos por tecnología
-- [ ] Integración con backend para formulario de contacto
-- [ ] Blog integrado
-- [ ] Portfolio de testimonios
-- [ ] Opción para agregar imágenes reales
+### Tablet Vertical (≤768px)
+- Layout de 1 columna para mejor legibilidad
+- Navegación en columna
+- Imagen de perfil optimizada
+
+### Mobile 1 (≤480px)
+- Fuentes optimizadas para móviles
+- Navegación vertical compacta
+- Footer en columna
+
+### Mobile 2 (≤375px)
+- Optimización extrema para pantallas pequeñas
+- Padding reducido en contenedores
+- Tipografía escalable
+
+## 🔗 Enlaces
+
+- **GitHub**: [https://github.com/MatiasNarvaja](https://github.com/MatiasNarvaja)
+- **LinkedIn**: [https://www.linkedin.com/in/matias-narvaja/](https://www.linkedin.com/in/matias-narvaja/)
+- **Email**: matias.narvaja@hotmail.com
+- **Teléfono**: +54 11 5115-8374
+
+## 🎯 Características Técnicas
+
+- **CSS limpio**: Sin código innecesario, optimizado
+- **Animaciones suaves**: fadeInUp, hover effects, transiciones
+- **SEO optimizado**: Estructura semántica HTML5
+- **Accesibilidad**: Navegación por teclado, contraste adecuado
+- **Performance**: Carga rápida, imágenes optimizadas
 
 ## 📄 Licencia
 
-Este proyecto es de uso educativo y personal.
+Este proyecto es de uso personal y profesional.
 
 ---
 
-**Desarrollado con ❤️ usando Angular y CSS moderno**
+**Desarrollado con ❤️ usando Angular 17 y CSS moderno**
