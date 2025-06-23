@@ -43,7 +43,7 @@ portfolio/
 
 2. **Ejecutar en modo desarrollo**:
    ```bash
-   npm start
+   ng serve
    ```
 
 3. **Abrir en navegador**:
